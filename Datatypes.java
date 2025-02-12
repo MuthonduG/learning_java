@@ -17,5 +17,11 @@ class Datatypes {
 
         // characters - Stores a single character/letter or ASCII values or unicode sequence
         char copyrightSymbol = '\u00A9';
+
+        // Strings are not primitive, they are objective types. String declaration
+        String name = "John Doe";
+        String nameTwo = new String("Jane Doe");
+
+        // string concatination
     }
 }
